@@ -17,6 +17,7 @@ h2{
   letter-spacing: 3px;
   position: relative;
   padding-bottom: 40px;
+  text-transform: uppercase;
 }
 
 h2::after{
@@ -35,6 +36,7 @@ h2::after{
 h3{
   font-size: 24px;
   font-weight: 800;
+  text-transform: uppercase;
 }
 
 button{
@@ -56,6 +58,8 @@ button{
   font-family: 'Titillium Web Regular', sans-serif;
   font-weight: 100;
   font-size: 22px;
+  opacity: 0.9;
+  line-height: 1.5
 }
 
 .container {
@@ -173,7 +177,7 @@ button{
 
 .services-list-item-title{
   color: #ffffff;
-  margin: 20px 5px;
+  margin: 25px 5px;
 }
 
 .services-list-item-describe{
@@ -201,27 +205,39 @@ button{
   justify-content: space-between;
   text-align: center;
   width: 100%;
-  margin-top: 50px;
+  margin-top: 25px;
 }
 
 .team-list-item{
   width: 25%;
   text-align: center;
-}
-
-.team-list-item-img{
-  margin: auto;
-  height: 150px;
-}
-
-.team-list-item-title{
   color: #3b4861;
-  margin: 20px 5px;
+}
+
+.team-list-item-photo{
+  margin: 30px 5px;
+}
+
+.team-list-item-photo img{
+  width: 70%;
+  border-radius: 50%;
+}
+
+.team-list-item-name{
+
+}
+
+.team-list-item-position{
+  margin: 10px auto;
+  color: #30bae7;
 }
 
 .team-list-item-describe{
-  color: #3b4861;
-  margin: auto 35px;
+  margin: 20px 45px;
   font-size: 16px;
+}
+
+.team-list-item-socail{
+
 }
 
