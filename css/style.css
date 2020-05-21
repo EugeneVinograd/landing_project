@@ -299,7 +299,7 @@ a{
 }
 
 .team-list-item-describe{
-  margin: 20px 0;
+  margin: 20px 45px;
   font-size: 16px;
 }
 
@@ -458,6 +458,76 @@ a{
   color: #ffffff;
 }
 
+.feedback-list{
+  padding-top: 75px;
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-gap: 150px 100px;
+}
+
+.feedback-list-item{
+  display: grid;
+  grid-template-columns: 115px auto;
+  grid-template-rows: 100px 30px 30px;
+  text-align: left;
+}
+
+.feedback-list-item-photo{
+  grid-row-start: 1;
+  grid-row-end: 4;
+}
+
+.feedback-list-item-photo img{
+  width: 90%;
+  border-radius: 50%;
+}
+
+.feedback-list-item-message{
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 1.5;
+  padding-left: 30px;
+}
+
+.feedback-list-item-message q:before{
+  content: "“";
+}
+
+.feedback-list-item-message q:after{
+  content: "“";
+}
+
+.feedback-list-item-name{
+  color: #ffffff;
+  padding-left: 30px;
+}
+
+.feedback-list-item-position{
+  color: #fac996;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 17px;
+  padding-left: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .contact{
   max-width: 100%;
   background-color: #3c5499;
@@ -476,19 +546,16 @@ a{
   padding-top: 70px;
   width: 950px;
   margin: auto;
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
 }
 
-form{
+.form-fields{
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
   grid-gap: 30px 50px;
   justify-content: center;
-}
-
-.form-style{
-  color: #ffffff;
-  font-family: 'Quicksand', sans-serif;
 }
 
 input{
