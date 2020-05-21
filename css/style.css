@@ -55,6 +55,54 @@ button{
   cursor: pointer;
 }
 
+.orange-button{
+  background-color: #d9884b;
+  border-bottom: 4px solid #996034;
+  margin-top: 75px;
+}
+
+.orange-button:hover{
+  background-color: #c47f4b;
+  border-bottom: 4px solid #996034;
+}
+
+.orange-button:active{
+  border-bottom: 3px solid #865634;
+  transform: translateY(2px);
+}
+
+.green-button{
+  background-color: #17c2a4;
+  border-bottom: 4px solid #13977f;
+  margin-top: 75px;
+}
+
+.green-button:hover{
+  background-color: #17c2a4;
+  border-bottom: 4px solid #13977f;
+}
+
+.green-button:active{
+  border-bottom: 3px solid #107764;
+  transform: translateY(2px);
+}
+
+.blue-button{
+  background-color: #30bae7;
+  border-bottom: 4px solid #0a94c1;
+  margin-top: 75px;
+}
+
+.blue-button:hover{
+  background-color: #30bae7;
+  border-bottom: 4px solid #0a94c1;
+}
+
+.blue-button:active{
+  border-bottom: 3px solid #097aa0;
+  transform: translateY(2px);
+}
+
 .text{
   font-family: 'Titillium Web Regular', sans-serif;
   font-weight: 100;
@@ -126,22 +174,6 @@ button{
   color: #ffffff;
   font-size: 46px;
   font-weight: 800;
-}
-
-.orange-button{
-  background-color: #d9884b;
-  border-bottom: 4px solid #996034;
-  margin-top: 75px;
-}
-
-.orange-button:hover{
-  background-color: #c47f4b;
-  border-bottom: 4px solid #996034;
-}
-
-.orange-button:active{
-  border-bottom: 3px solid #865634;
-  transform: translateY(2px);
 }
 
 .services{
@@ -386,18 +418,53 @@ button{
   color: rgba(0, 0, 0, 0.9);
 }
 
-.green-button{
-  background-color: #17c2a4;
-  border-bottom: 4px solid #13977f;
-  margin-top: 75px;
+.feedback{
+  max-width: 100%;
+  background-color: #d74680;
+  padding: 100px 0;
 }
 
-.green-button:hover{
-  background-color: #17c2a4;
-  border-bottom: 4px solid #13977f;
+.feedback-header h2{
+  color: #ffffff;
 }
 
-.green-button:active{
-  border-bottom: 3px solid #107764;
-  transform: translateY(2px);
+.feedback-preview{
+  color: #ffffff;
+}
+
+
+
+.form{
+  max-width: 100%;
+  background-color: #3c5499;
+  padding: 100px 0;
+}
+
+.form-header h2{
+  color: #ffffff;
+}
+
+.form-preview{
+  color: #ffffff;
+}
+
+.footer{
+  width: 100%;
+  background-color: #344b8e;
+  padding: 30px 20px;
+}
+
+.footer-list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-list-item a{
+  text-decoration: none;
+  color: rgba(255, 255, 255, 1);
+  font-size: 24px;
+}
+
+.footer-list-item a:hover{
+  color: rgba(48, 186, 231, 1);
 }
