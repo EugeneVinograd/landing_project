@@ -118,7 +118,7 @@ button{
 
 .home{
   background-color: #7c609d;
-  padding: 250px 150px 200px;
+  padding: 250px 0 200px;
 }
 
 .home-welcome h1{
@@ -146,7 +146,7 @@ button{
 .services{
   max-width: 100%;
   background-color: #66baa5;
-  padding: 100px 150px;
+  padding: 100px 0;
 }
 
 .services-header h2{
@@ -171,8 +171,14 @@ button{
 }
 
 .services-list-item-img{
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.services-list-item-img img{
   height: 150px;
+  max-width: 100%;
 }
 
 .services-list-item-title{
@@ -189,7 +195,7 @@ button{
 .team{
   max-width: 100%;
   background-color: #eaf1f8;
-  padding: 100px 150px;
+  padding: 100px 0;
 }
 
 .team-header h2{
@@ -212,10 +218,11 @@ button{
   width: 25%;
   text-align: center;
   color: #3b4861;
+  padding: 0 15px;
 }
 
 .team-list-item-photo{
-  margin: 30px 5px;
+  margin: 30px 0;
 }
 
 .team-list-item-photo img{
@@ -228,16 +235,94 @@ button{
 }
 
 .team-list-item-position{
-  margin: 10px auto;
+  margin: 10px 0;
   color: #30bae7;
 }
 
 .team-list-item-describe{
-  margin: 20px 45px;
+  margin: 20px 0;
   font-size: 16px;
 }
 
-.team-list-item-socail{
-
+.team-list-item-social{
+  display: flex;
+  justify-content: center;
 }
 
+.sprite {
+  background-image: url('../images/social-sprite.png');
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.sprite + .sprite{
+  margin-left: 10px;
+}
+
+.sprite-email-logo {
+  width: 32px;
+  height: 32px;
+  background-position: -10px -10px;
+}
+
+.sprite-facebook-logo {
+  width: 32px;
+  height: 32px;
+  background-position: -62px -10px;
+}
+
+.sprite-linkelin-logo {
+  width: 32px;
+  height: 32px;
+  background-position: -114px -10px;
+}
+
+.sprite-twitter-logo {
+  width: 32px;
+  height: 32px;
+  background-position: -166px -10px;
+}
+
+.skill{
+  max-width: 100%;
+  background-color: #ffffff;
+  padding: 100px 0;
+}
+
+.skill-header h2{
+  color: #3b4861;
+}
+
+.skill-preview{
+  color: #3b4861;
+}
+
+.skill-list{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.skill-list-item{
+  width: 25%;
+  text-align: center;
+  color: #3b4861;
+  padding: 0 15px;
+  
+}
+
+.skill-list-item-diagram{
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.skill-list-item-diagram img{
+  width: 70%;
+}
+
+.skill-list-item-name{
+  padding-top: 30px;
+}
