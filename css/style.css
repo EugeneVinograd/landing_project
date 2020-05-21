@@ -49,6 +49,7 @@ button{
   font-weight: 600;
   color: #ffffff;
   text-decoration: none;
+  text-transform: uppercase;
   outline: none;
   transition: background-color 0.4s;
   cursor: pointer;
@@ -125,12 +126,12 @@ button{
   color: #ffffff;
   font-size: 46px;
   font-weight: 800;
-  padding-bottom: 75px;
 }
 
 .orange-button{
   background-color: #d9884b;
   border-bottom: 4px solid #996034;
+  margin-top: 75px;
 }
 
 .orange-button:hover{
@@ -325,4 +326,78 @@ button{
 
 .skill-list-item-name{
   padding-top: 30px;
+}
+
+.portfolio{
+  max-width: 100%;
+  background-color: #ffdd99;
+  padding: 100px 0;
+}
+
+.portfolio-header h2{
+  color: #393939;
+}
+
+.portfolio-preview{
+  color: #393939;
+}
+
+.portfolio-buttons-bar{
+  display: flex;
+  justify-content: center;
+  padding-top: 35px;
+}
+
+.portfolio-buttons-bar-item{
+}
+
+.button-of-buttons_bar{
+  margin: 5px 7px;
+  font-size: 20px;
+  background-color: #000000;
+  color: rgba(255, 255, 255, 0.9);
+  border-radius: 4px;
+  width: 100px;
+  height: 50px;
+}
+
+.button-of-buttons_bar:hover{
+  background-color: #ffffff;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.portfolio-list{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 50px;
+  width: 100%;
+  padding-top: 45px;
+}
+
+.portfolio-list-item{
+  
+}
+
+.portfolio-list-item-describe{
+  padding-top: 15px;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.9);
+}
+
+.green-button{
+  background-color: #17c2a4;
+  border-bottom: 4px solid #13977f;
+  margin-top: 75px;
+}
+
+.green-button:hover{
+  background-color: #17c2a4;
+  border-bottom: 4px solid #13977f;
+}
+
+.green-button:active{
+  border-bottom: 3px solid #107764;
+  transform: translateY(2px);
 }
