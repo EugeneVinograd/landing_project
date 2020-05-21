@@ -59,7 +59,7 @@ button{
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 75px auto;
+  margin: 75px auto 0;
   width: 325px;
   height: 70px;
   border-radius: 4px;
