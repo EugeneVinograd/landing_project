@@ -20,7 +20,7 @@
               <li class="header-navigation-list-item"><a href="#">ABOUT</a></li>
               <li class="header-navigation-list-item"><a href="#">WORK</a></li>
               <li class="header-navigation-list-item"><a href="#">BLOG</a></li>
-              <li class="header-navigation-list-item"><a href="#">CONTACT</a></li>
+              <li class="header-navigation-list-item"><a href="#contact_form">CONTACT</a></li>
             </ul>
           </nav>
         </div>
@@ -33,9 +33,7 @@
               and we billd awesome wedsites and mobile apps.
           </h1>
         </div>
-        <div>
-          <button class="orange-button">work with us!</button>
-        </div>
+        <a class="link-contact orange-button" href="#contact_form">work with us!</a>
       </div>
     </section>
     <section class="services">
@@ -297,9 +295,7 @@
             </div>
           </div>
         </div>
-        <div>
-          <button class="green-button">work with us!</button>
-        </div>
+        <a class="link-contact green-button" href="#contact_form">load more projects</a>
       </div>
     </section>
     <section class="feedback">
@@ -314,15 +310,25 @@
         </div>
       </div>
     </section>
-    <section class="form">
+    <section class="contact">
       <div class="container">
-        <div class="form-header">
-          <h2>what people say about us</h2>
+        <div class="contact-header">
+          <h2>get in touch</h2>
         </div>
-        <div class="form-preview text">
+        <div class="contact-preview text">
           <p>
-            Our clients love us!
+            1600 PennsyIvania Ave NW, Washington, DC 20500, United State of America. Tel: (202) 456-1111
           </p>
+        </div>
+        <div class="contact-form form-style">
+          <form id="contact_form">
+            <input class="field" name="name" type="text" placeholder="Your Name*">
+            <input class="field" name="email" type="text" placeholder="Your Email*">
+            <textarea class="field" name="masage" cols="30" rows="15" placeholder="Your Message*"></textarea>
+          </form>
+          <div>
+            <button class="blue-button">send message</button>
+          </div>
         </div>
       </div>
     </section>
